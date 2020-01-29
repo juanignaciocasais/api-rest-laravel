@@ -1,0 +1,1 @@
+const SERVER_URL = "/web_cabys/api/" // http://cabys.000webhostapp.com/api/"
