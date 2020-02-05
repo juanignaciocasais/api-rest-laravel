@@ -7,6 +7,4 @@ Crear el archivo .env copiandolo desde el ejemplo .env.example y cargar los dato
 Abrir el Terminal y ubicarse en el proyecto descargado.
 Ejecutar composer install o php composer.phar install
 Ejecutar php artisan key:generate
-Ejecutar php artisan migrate
-Ejecutar php artisan db:seed to run seeders, if any.
 Ejecutar php artisan serve
