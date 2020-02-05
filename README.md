@@ -1,20 +1,12 @@
-copiar .env desde .env.example
-composer
-crear base de datops
-completar datos de db en .env
+Para correr este proyecto de Laravel debemos hacer los siguientes pasos.
 
-ejecutar script database.sql en la db creada
-
-Acomodar texto
-
-
-Create a database locally named homestead utf8_general_ci
-Download composer https://getcomposer.org/download/
-Pull Laravel/php project from git provider.
-Rename .env.example file to .envinside your project root and fill the database information. (windows wont let you do it, so you have to open your console cd your project root directory and run mv .env.example .env )
-Open the console and cd your project root directory
-Run composer install or php composer.phar install
-Run php artisan key:generate
-Run php artisan migrate
-Run php artisan db:seed to run seeders, if any.
-Run php artisan serve
+Realizar el Pull del proyecto
+Descargar composer https://getcomposer.org/download/
+Crear una base de datos vacia y ejecutar el archivo database.sql
+Crear el archivo .env copiandolo desde el ejemplo .env.example y cargar los datos de la base de datos creada en el paso anterior.
+Abrir el Terminal y ubicarse en el proyecto descargado.
+Ejecutar composer install o php composer.phar install
+Ejecutar php artisan key:generate
+Ejecutar php artisan migrate
+Ejecutar php artisan db:seed to run seeders, if any.
+Ejecutar php artisan serve
