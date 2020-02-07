@@ -1,3 +1,5 @@
+Blog realizado en Laravel para utilizar las funciones CRUD. Front-end aun en construccion con ReactJs
+
 Para correr este proyecto de Laravel debemos hacer los siguientes pasos.
 
 Realizar el Pull del proyecto
