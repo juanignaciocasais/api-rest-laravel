@@ -8,6 +8,6 @@ Para correr este proyecto de Laravel debemos hacer los siguientes pasos.
 4. Crear el archivo .env copiandolo desde el ejemplo .env.example 
 5. Cargar los datos de la base de datos creada en el paso anterior.
 6. Abrir el Terminal y ubicarse en el proyecto descargado.
-7. Ejecutar '''composer install''' o '''php composer.phar install'''
-8. Ejecutar php artisan key:generate
-9. Ejecutar php artisan serve
+7. Ejecutar ´´´composer install´´´ o ´´´php composer.phar install´´´
+8. Ejecutar ´´´php artisan key:generate´´´
+9. Ejecutar ´´´php artisan serve´´´
